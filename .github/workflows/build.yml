@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - '*'
+      - "*"
   pull_request:
 
 env:
@@ -16,4 +16,4 @@ env:
 
 jobs:
   build:
-    uses: portapps/.github/.github/workflows/app-build.yml@master
+    uses: ysn4irix/.github/.github/workflows/app-build.yml@master
